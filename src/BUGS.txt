@@ -1,0 +1,8 @@
+Sound.js
+
+[BUGS]
+
+//Check what is stopping muteGlobally() to work properly, apparently the problems is on setConfig() - TO DO
+
+renderEntities.js
+//Transfer this to a better file ( the play/pause button stuff and the volume button ) - to do

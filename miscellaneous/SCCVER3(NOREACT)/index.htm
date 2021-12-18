@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC Corp.</title>
+    <link rel="stylesheet" href="./model/styles/grid.css">
+    <link rel="stylesheet" href="./model/styles/index.css">
+</head>
+<body>
+    <div id="app">
+        <div id="grid">
+            <div class="grid-top">
+                <div class="flex-top">
+                    <img src="./model/elements/scc-logo.svg" id="logo">
+                    <img src="./model/elements/sound-off.svg" id="sound-btn">
+                </div>
+            </div>
+            <div class="grid-middle-character">
+                <div class="flex-character">
+                    <div class="character">
+                        <div id="char-box">
+                            <img src="" id="avatar">
+                        </div>
+                    </div>
+                    <div class="character-info">
+                        <div class="info-lane">
+                            <img src="./model/elements/double-bars.svg" class="double-bars">
+                            <p id="name">NoCat Nobody</p>
+                        </div>
+                        <div>
+                            <p id="description">“Cat's descriptions was never big enough, so we made them small.”</p>
+                        </div>
+                        <div class="info-lane-occ">
+                            <div class="info-lane">
+                                <img src="./model/elements/double-bars.svg" class="double-bars">
+                                <p id="role">Role:</p>
+                            </div>
+                            <p id="job">JOB: I DO SOMETHING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-middle-selector">
+                <div class="flex-selector">
+                    <div class="selector-parent" id="parent">
+                    </div>
+                </div>
+            </div>
+            <div class="grid-bottom">
+                <div class="flex-bottom">
+                    <p id="slogan">
+                        We are a serious corporation: no dogs, no raw fish, no pyramid schemes! A serious cat corp.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="./controller/classes/Cat.js"></script>
+    <script defer src="./controller/characters.js"></script>
+    <script defer src="./controller/index.js"></script>
+</body>
+</html>

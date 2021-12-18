@@ -1,0 +1,52 @@
+.sqr {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 2%;
+    cursor: pointer;
+}
+.active {
+    box-sizing: border-box;
+    outline: 8px solid rgb(255, 0, 43);
+}
+
+img {
+    width: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#img {
+    width: 20vw;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-selector {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #050405;
+    margin-left: 2%;
+    margin-right: 0.8%;
+    width: 9vw;
+    height: 13vw;
+    transform: skewX(17deg);
+    overflow: hidden;
+}
+
+.avatar-selector-outline:hover {
+    outline: 4px solid rgb(32, 128, 238);
+}
+
+.avatar-selector img {
+    transform: skewX(-17deg);
+    width: 26vw;
+    position: absolute;
+    left: -11vw;
+    top: -5vw;
+}

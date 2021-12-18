@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GridTop from "./components/grid_top";
+import GridMiddleChar from "./components/grid_middle_char"
+import GridMiddleSelector from "./components/grid_middle_selector"
+import GridBottom from "./components/grid_bottom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = ()=> {
+    return (
+        <div id="grid">
+            <GridTop/>
+            <GridMiddleChar />
+            <GridMiddleSelector />
+            <GridBottom />
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body {
+            margin: 0;
+        }
+        #app {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            max-width: 100vw;
+            max-height: 100vh;
+            background-color: antiquewhite;
+        }
+        .exercise {
+            display: flex;
+            flex-direction: column;
+            padding: 2vw;
+            max-width: 30vw;
+            max-height: 80vh;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            overflow-y: auto;
+            font-size: 1.3vw;
+        }
+        .title {
+            font-size: 2vw;
+        }
+        #delivery-date {
+            background-color: rgb(233, 214, 188);
+            padding: 0.5vw;
+            border-radius: 5px;
+            max-width: 80%;
+            margin-top: -0.6vw;
+            font-size: 1.2vw;
+        }
+        .to-do {
+            list-style: lower-latin;
+            margin-top: -0.5vw;
+        }
+        .item {
+            max-width: 90%;
+            margin-top: 0.8vw;
+        }
+        .attention {
+            border: 2px solid rgb(163, 9, 35);
+            border-radius: 5px;
+            padding: 1vw;
+        }
+        .attention span {
+            border-bottom: 0.3vw solid rgb(163, 9, 35);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <div class="exercise">
+            <h1 class="title">Exercícios:</h1>
+            <p id="delivery-date">Entrega: próxima aula.</p>
+            <p class="question"><b>I. Com os tipos certos de variáveis, e em arquivos separados:</b></p>
+            <ul class="to-do">
+                <li class="item">
+                    Crie um valor e alerte ele. Após isso, reatribua-o, e alerte-o novamente.
+                </li>
+                <li class="item">
+                    Gere um erro de reatribuição e explique o motivo do erro em um comentário (/* comentário */).
+                </li>
+            </ul>
+            <div class="attention"><span>Atenção!</span><br><br> Faça-os em arquivos separados.</div>
+        </div>
+    </div>
+    
+</body>
+</html>

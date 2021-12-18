@@ -1,0 +1,35 @@
+//NOT IN USE!!!!!!!!!!!!!!!!
+
+
+{
+    "units": [
+        {
+            "name": "Henry",
+            "description": "Sometimes tired, sometimes serious, sometimes angry. But always working.",
+            "role": "A cat, a work to be done, cash... You know what that means.",
+            "classname": "avatar-slot",
+            "pictureFilePath": "../../model/charaters/images/henry.png"
+        },
+        {
+            "name": "Ross",
+            "description": "You're five minutes lat- What? Yeah... My shirt has pockets, so what? Don't change the subject!",
+            "role": "The boss, SCC Owner.",
+            "classname": "avatar-slot",
+            "pictureFilePath": "../../model/charaters/images/ross.png"
+        },
+        {
+            "name": "Hamyr",
+            "description": "Unlock to see",
+            "role": "Unlock to see",
+            "classname": "avatar-slot",
+            "pictureFilePath": "../../model/charaters/images/hamyr.png"
+        }
+    ],
+    "config": {
+        "nameBox": "name",
+        "descriptionBox": "description",
+        "roleBox": "job",
+        "entityDisplayBox": "avatar",
+        "parentElement": "parent"
+    }
+}
