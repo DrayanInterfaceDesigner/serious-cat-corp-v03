@@ -1,3 +1,13 @@
+/* --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@font-face {
+    font-family: ForcedSquare;
+    src: url(forced-square.ttf);
+}
+
+
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -7,7 +17,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: #d3b6c1;
-    font-family: Staatliches;
+    font-family: 'Staatliches', cursive;
     height: 100vh;
 }
 
@@ -189,7 +199,7 @@ body {
 }
 
 #slogan {
-    font-family: 'FORCED SQUARE';
+    font-family: 'ForcedSquare';
     font-size: 1.6vw;
     text-align: center;
     color: #ff5097;
